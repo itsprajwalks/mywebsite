@@ -1,0 +1,28 @@
+language: python
+
+python: 
+  - 3.4
+  
+#Installation 
+#before install 
+#install
+#after install 
+
+#script
+script: 
+  - echo "hello world"
+  
+#depoly
+deploy: 
+  provider: pages
+  skip_cleanup: true 
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on: 
+    branch: main
+  
+#before deploy 
+#deploy
+#after deploy 
+
+
